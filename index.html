@@ -15,16 +15,16 @@
 					<li><strong>Swann Carle</strong></li>
 					<li><a href="https://www.linkedin.com/in/swann-carle-1b597a342/" class="icon brands fa-linkedin-in" title="LinkedIn"></a></li>
 					<li><a href="https://github.com/Nitsuke42" class="icon brands fa-github" title="Github"></a></li>
-					<li><a href="#resume"><span class="button">Resume</span></a></li>
+					<li><a href="assets/files/Resume.pdf"><span class="button">Resume</span></a></li>
 				</ul>
 			</nav>
 
 		<!-- Home -->
 			<article id="top" class="wrapper style1">
 				<div class="container">
-					<div class="row">
-						<div class="col-4 col-5-large col-12-medium">
-							<span class="image fit"><img src="images/pic00.jpg" alt="" /></span>
+					<div class="row aln-even">
+						<div class="col-4-medium col-5-large col-12-medium">
+							<span class="image fit"><img src="images/Other/pic00.jpg" alt="" /></span>
 						</div>
 						<div class="col-8 col-7-large col-12-medium">
 							<header>
@@ -44,54 +44,68 @@
 			<article id="portfolio" class="wrapper style3">
 				<div class="container">
 					<header>
-						<h2>My Project</h2>
+						<h2>My Projects</h2>
 					</header>
-					<div class="row">
+					<div class="row aln-center aln-even">
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-								<h3><a href="#">Magna feugiat</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<a href="TimeCapsule.html" class="image featured"><img id="#timeCapsuleImg" src="images/Projects/TimeCapsule.jpg" alt="" /></a>
+								<h3><a href="TimeCapsule.html">TimeCapsule</a></h3>
+								<p>Description TimeCapsule</p>
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-								<h3><a href="#">Veroeros primis</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<a href="#" class="image featured"><img src="images/Projects/pic02.jpg" alt="" /></a>
+								<h3><a href="#">Creallies</a></h3>
+								<p>Description Creallies</p>
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<h3><a href="#">Lorem ipsum</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<a href="#" class="image featured"><img src="images/Projects/pic03.jpg" alt="" /></a>
+								<h3><a href="#">The Fallen One</a></h3>
+								<p>Description The Fallen One</p>
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-								<h3><a href="#">Tempus dolore</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<a href="#" class="image featured"><img src="images/Projects/pic04.jpg" alt="" /></a>
+								<h3><a href="#">Vorace</a></h3>
+								<p>Description Vorace</p>
 							</article>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
+
+						<!-- PROJET A RAJOUTER-->
+
+						<!--
+						
+						Quarterback
+						N-Body Simulation DLL
+						Conway's game of life DLL
+						ProjetS ?
+
+						-->
+
+
+
+						<!-- <div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+								<a href="#" class="image featured"><img src="images/Projects/pic05.jpg" alt="" /></a>
 								<h3><a href="#">Feugiat aliquam</a></h3>
 								<p>Ornare nulla proin odio consequat.</p>
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+								<a href="#" class="image featured"><img src="images/Projects/pic06.jpg" alt="" /></a>
 								<h3><a href="#">Sed amet ornare</a></h3>
 								<p>Ornare nulla proin odio consequat.</p>
 							</article>
-						</div>
+						</div> -->
 					</div>
 					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+						<p></p>
 						<a href="#project" class="button large scrolly">See more project</a>
 					</footer>
 				</div>
@@ -126,7 +140,7 @@
 					Since I was a kid I was always facinated by how video game work and wanted to create some of my own.
 					As I grew up in middle school I started making simple game with Scratch on my free time.
 					In high school I've chosen a specialisation in microcontroller developement and even made game on them !
-					After this I've joined a game developement school to futher deepen my knowledge and make game seriously with other people that also love
+					After this I've joined a game developement school to futher deepen my knowledge and make game seriously with other people that also love to do so.
 				</p>
 				<p>
 					You can contact me via the information provided in my resume at the top.
@@ -138,7 +152,7 @@
 		<!-- Copyright -->
 		
 		<footer id="copyright" class="wrapper style4">
-				<h1>&copy; 2025 Swann Carle - All rights reserved.</h1>
+				<h1>&copy; <span id="spanYear"></span> Swann Carle - All rights reserved.</h1>
 		</footer>
 
 		<!-- Scripts -->
@@ -148,6 +162,10 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+  				$('#spanYear').html(new Date().getFullYear());
+			</script>
 
 	</body>
 </html>

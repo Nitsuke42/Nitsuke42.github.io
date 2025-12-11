@@ -222,6 +222,16 @@ input, select, textarea {
 		font-size: 1.25em;
 	}
 
+	code { 
+    	background: rgb(0, 0, 0); 
+	}
+
+	pre {
+    	white-space: pre-wrap;
+	    background: rgb(0, 0, 0);
+		text-align: left;
+	}
+
 /* Container */
 
 	.container {
@@ -312,6 +322,10 @@ input, select, textarea {
 			justify-content: flex-end;
 		}
 
+		.row.aln-even {
+			align-items: start;
+		}
+
 		.row.aln-top {
 			align-items: flex-start;
 		}
@@ -353,11 +367,11 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 33.33333%;
+			width: 35%;
 		}
 
 		.row > .off-4 {
-			margin-left: 33.33333%;
+			margin-left: 35%;
 		}
 
 		.row > .col-5 {
@@ -1907,7 +1921,7 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #fff;
+		background: #383838;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		text-align: center;
 		padding: 2em;
@@ -1931,6 +1945,14 @@ input, select, textarea {
 			top: 2em;
 			margin: -4em 0 4em -4em;
 			width: auto;
+		}
+
+		.box.style3 {
+			padding: 0.5em;
+		}
+
+		.box.style3 p{
+			margin: 0px;
 		}
 
 /* Icons */
@@ -2132,7 +2154,6 @@ input, select, textarea {
 				width: 100%;
 				padding: 1em 0 1em 0;
 			}
-		
 
 /* Header */
 #header {
