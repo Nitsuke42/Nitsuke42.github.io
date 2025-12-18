@@ -1650,6 +1650,7 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			width: 100%;
+			margin: 0 0 1em 0;
 		}
 
 		.image.featured {
@@ -2569,3 +2570,16 @@ body.dark #header {
 					}
 
 	}
+
+/* Tiny */
+
+@media screen and (max-width:274px) {
+
+	#nav{
+		height: 6.5em;
+	}
+	
+	.wrapper.style1{
+		margin-top: 1em;
+	}
+}
