@@ -2018,12 +2018,12 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			background-color: #1d1d1d;
-			text-shadow: 1px 1px 0px #6b6b6b;
+			/* text-shadow: 1px 1px 0px #6b6b6b; */
 		}
 
 		.wrapper.style3 {
 			background-color: #1d1d1d;
-			text-shadow: 1px 1px 0px #6b6b6b;
+			/* text-shadow: 1px 1px 0px #6b6b6b; */
 		}
 
 		.wrapper.style4 {
