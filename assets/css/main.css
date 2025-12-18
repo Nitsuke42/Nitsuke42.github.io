@@ -1950,6 +1950,8 @@ input, select, textarea {
 
 		.box.style3 {
 			padding: 0.5em;
+			height: 6em;
+			margin: 0.5em;
 		}
 
 		.box.style3 p{
