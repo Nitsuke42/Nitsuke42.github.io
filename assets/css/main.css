@@ -1958,6 +1958,23 @@ input, select, textarea {
 			margin: 0px;
 		}
 
+		.box.style4 {
+			background: #000000;
+			padding: 0.5em;
+			height: auto;
+			margin: 0.5em;
+		}
+
+		.box.style5 {
+			padding: 0.5em;
+			height: auto;
+			margin: 0.5em;
+		}
+
+		.box.style5 p{
+			margin: 0px;
+		}
+
 /* Icons */
 
 	.icon {

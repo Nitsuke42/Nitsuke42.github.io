@@ -89,35 +89,12 @@
 				I was in charge of {thing} and to resolve it I've done the following {code sample}
 			</p>
 
-			<!--Test for code snippet-->
-			<p>This is the <code>Panel</code> constructor:</p>
-			<div class="col-4 col-6-medium col-12-small">
-			<div class ="row aln-center aln-even">
-				<article>
-				<!--Code section-->
-				<pre class="prettyprint">
-<code>#include &lt;iostream&gt;
-
-	void main()
-	{
-		std::cout &lt;&lt; "Hello World !" &lt;&lt; std::endl;
-	}
-</code></pre>
-				<article>
-				<article class = "box style3">
-				<!--Description-->
-
-				I was tasked with .... and did the following .... This code does .... and ....
-				</article>
-				</div>
-			</div>
-
 
 
 			<!--Better code snippet info-->
 			<div class="col-4 col-6-medium col-12-small">
 				<div class="row aln-center aln-even">
-					<article> <!--Set a better formating for the code-->
+					<article class = "box style4"> <!--Set a better formating for the code-->
 						<pre class="prettyprint">
 <code>#include &lt;iostream&gt;
 
@@ -128,7 +105,7 @@
 </code></pre>
 					</article>
 
-					<article class = "box style3"> <!--Change the box style to have a safezone & start at the same height as the code snippet-->
+					<article class = "box style5"> <!--Change the box style to have a safezone & start at the same height as the code snippet-->
 						<!--Description-->									
 						<p>
 							I was tasked with .... and did the following .... This code does .... and ....
@@ -149,5 +126,17 @@
         <footer id="copyright" class="wrapper style4">
 			<h1>&copy; <span id="spanYear"></span> Swann Carle - All rights reserved.</h1>
 		</footer>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+		<script>
+  			$('#spanYear').html(new Date().getFullYear());
+		</script>
     </body>
 </html>
