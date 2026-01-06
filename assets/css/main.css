@@ -2066,6 +2066,18 @@ input, select, textarea {
 			background-color: #1d1d1d;
 			/* text-shadow: 1px 1px 0px #6b6b6b; */
 		}
+		.wrapper.style2 h1{
+			font-size: 50px;
+		}
+		.wrapper.style2 p{
+			margin: 1em 10% 1em 10%;
+			text-align: justify;
+			font-size: 25px;
+		}
+
+		.wrapper.style2 pre{
+			font-size: 18px;
+		}
 
 		.wrapper.style3 {
 			background-color: #1d1d1d;
