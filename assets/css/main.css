@@ -1682,6 +1682,22 @@ input, select, textarea {
 			margin: 0 auto 1.5em auto;
 		}
 
+		.image.showcase{
+			display: block;
+			max-width: 45%;
+			max-height: 500px;
+			padding: inherit;
+			margin: 0 auto 1.5em auto;
+		}
+
+		.image.showcase.mobile{
+			display: block;
+			max-width: 100%;
+			max-height: 600px;
+			padding: inherit;
+			margin: 0 auto 1.5em auto;
+		}
+
 /* Button */
 
 	input[type="button"],
