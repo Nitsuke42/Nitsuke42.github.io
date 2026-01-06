@@ -1684,8 +1684,9 @@ input, select, textarea {
 
 		.image.showcase{
 			display: block;
-			max-width: 45%;
-			max-height: 500px;
+			
+			max-width: 65%;
+			max-height: 800px;
 			padding: inherit;
 			margin: 0 auto 1.5em auto;
 		}
