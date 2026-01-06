@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+	<!--Load prettify for code snippet-->
+	<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?autoload=true&amp;skin=sons-of-obsidian"></script>
+	<head>
+		<title>Swann Carle Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<link href="assets/js/prettify.js" type="text/css" rel="stylesheet" />
+		<script src="assets/src/prettify.js?autoload=true&amp;skin=sunburn"></script>
+	</head>
+    <body class="is-preload">
+
+        <!-- Nav -->
+		<nav id="nav">
+			<ul class="container2">
+				<li><a href="https://nitsuke42.github.io"><strong>Swann Carle</strong></a></li>
+				<li><a href="https://www.linkedin.com/in/swann-carle-1b597a342/" class="icon brands fa-linkedin-in" title="LinkedIn"></a></li>
+				<li><a href="https://github.com/Nitsuke42" class="icon brands fa-github" title="Github"></a></li>
+				<li><a href="assets/files/Resume.pdf"><span class="button">Resume</span></a></li>
+			</ul>
+		</nav>
+
+        <!-- Home -->
+		<article id="intro" class="wrapper style1">
+			<div class="container">
+				<div class="aln-center">
+						<span><img class="image banner" src="images/Projects/Vorace/Vorace.png" alt="" /></span>
+				</div>
+				
+				<!--Project Info-->
+				<div class="row aln-center">
+					<div class="col-8 col-7-large col-12-medium">
+						<header class="aln-center">
+							<h1><strong>TimeCapsule</strong></h1>
+						</header>
+						
+						<div class="col-4 col-6-medium col-12-small">
+							<div class="row aln-center aln-even">
+								<article class = "box style3">
+									<p><strong>Game genres :</strong></p>
+									<p>Roguelite</p>
+								</article>
+
+								<article class = "box style3">
+									<p><strong>Techs:</strong></p>
+									<p>SFML, C</p>
+								</article>
+
+								<article class = "box style3">
+									<p><strong>Team size:</strong></p>
+									<p>5 Programmer</p>
+									<p>4 Artist</p>
+								</article>
+
+								<acticle class ="box style3">
+									<p><strong>Production time:</strong></p>
+									<p>2 Months</p>
+								</acticle>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</article>
+
+		<article id="info" class = "wrapper style2">
+			<header>
+				<h1>Project info:</h1>
+			</header>
+			<p>
+				TimeCapsule is a puzzle game were you change temporality to solve the puzzle and explore your own house when you were a kid and an adult
+			</p>
+			<p>
+				This game was made in 2025 and was my final project of my 3rd year
+			</p>
+		</article>
+
+		<article id="personal work" class="wrapper style2">
+			<header>
+				<h1>What I've done:</h1>
+			</header>
+
+			<p>
+				In this project I've started by prototyping some shaders to give an atmosphere to the game
+			</p>
+			<p>
+				I've followed up by setting up a basic cinematic for the game intro combined with a shader to simulate a disorienting awakening
+			</p>
+			<p>
+				I've also worked on some puzzle where you play with physics and need to input sequences
+			</p>
+			<p>
+				I've also played with particle making some dust particle for a cut part of the game, particle for when you complete a puzzle and wind particle for the garden outside
+			</p>
+			<p>
+				I've manage to set 3d element in the ui 
+			</p>
+			<p>
+				I've try to make stencil buffer to try and make window for the house without cutting a hole in the geometry
+			</p>
+			<p>
+				I've was in charge of the lightmap in the house and made a script to swap lightmap when changing temporality
+			</p>
+			<p>
+				I've also helped with the shader to make transition between temporality
+			</p>
+		</article>
+
+        <footer id="copyright" class="wrapper style4">
+			<h1>&copy; <span id="spanYear"></span> Swann Carle - All rights reserved.</h1>
+		</footer>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+		<script>
+  			$('#spanYear').html(new Date().getFullYear());
+		</script>
+    </body>
+</html>
