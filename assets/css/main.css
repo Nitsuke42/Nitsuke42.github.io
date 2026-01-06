@@ -1674,6 +1674,12 @@ input, select, textarea {
 				width: auto;
 			}
 
+		.image.banner{
+			display: block;
+			max-width: 75%;
+			margin: 0 0 1.5em 0;
+		}
+
 /* Button */
 
 	input[type="button"],
@@ -1991,7 +1997,7 @@ input, select, textarea {
 			padding: 0.5em;
 			width: auto;
 		}
-		
+
 /* Icons */
 
 	.icon {
