@@ -2010,13 +2010,14 @@ input, select, textarea {
 			margin-bottom: 1.5em;
 		}
 
-		.box.style6 .image {
+		.box.style6 img {
 			position: relative;
-			margin: 0.5em;
+			margin: 0.25em 0 0.25em 0;
 			padding: 0.5em;
 			width: auto;
 			align-self: center;
-			max-width: 10%;
+			min-width: 100px;
+			max-width: 50%;	
 		}
 
 /* Icons */
