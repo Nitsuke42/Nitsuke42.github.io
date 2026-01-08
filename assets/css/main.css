@@ -2013,7 +2013,7 @@ input, select, textarea {
 		.box.style6 img {
 			position: relative;
 			margin: 0.25em 0 0.25em 0;
-			padding: 0.5em;
+			padding: 0 0.1em 0 0.1em;
 			align-self: center;
 			min-width: 100px;
 			max-width: 50%;	
