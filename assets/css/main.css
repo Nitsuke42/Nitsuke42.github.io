@@ -2002,20 +2002,19 @@ input, select, textarea {
 
 		.box.style6{
 			margin: 1em;
-			width: 25%;
+			max-width: 30%;
 		}
 
 		.box.style6 h3 {
-			size: 5em;
+			
 			margin-bottom: 1.5em;
 		}
 
 		.box.style6 img {
 			position: relative;
-			margin: 0.25em 0 0.25em 0;
-			padding: 0 0.1em 0 0.1em;
+			margin: 0 0 0.25em 0;
 			align-self: center;
-			min-width: 100px;
+			object-fit: contain;
 			max-width: 50%;	
 		}
 
@@ -2562,6 +2561,11 @@ body.dark #header {
 					max-width: 32em;
 					margin-left: auto !important;
 					margin-right: auto !important;
+				}
+
+				.box.style6{
+					margin: 1em;
+					max-width: 65%;
 				}
 
 		/* Wrappers */
